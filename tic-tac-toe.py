@@ -186,7 +186,7 @@ def calculate_board():
 
 
 
-################################# AI at work ##############################
+### modified minimax algorithm
 def isWin(board):
     """
     Given a board checks if it is in a winning state.
