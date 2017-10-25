@@ -1,4 +1,10 @@
 # Tic-Tac-Toe
 A GUI-based Python script for the classic "Tic-Tac-Toe" game!
- This is intended to be a two-player game.
- User vs Computer version coming soon!
+### Details:  
+Python Version: `Python 2.7`  
+GUI framework: `Tkinter`  
+Algorithm: `minimax`  
+Defaults: Player goes first with cross (X) while the computer plays with noughts (O)
+### To-Do:  
+* Providing the choice of turn to the player.  
+* Removing redundant code.
