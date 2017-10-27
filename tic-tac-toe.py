@@ -140,16 +140,16 @@ def check_victory(button):
 
     #check if previous move was on the main diagonal and caused a win
     if x == y and buttons[0][0]['text'] == buttons[1][1]['text'] == buttons[2][2]['text'] != " ":
-        buttons[x][y].config(text="\\" + tt + "\\")
-        buttons[x][y].config(text="\\" + tt + "\\")
-        buttons[x][y].config(text="\\" + tt + "\\")
+        buttons[0][0].config(text="\\" + tt + "\\")
+        buttons[1][1].config(text="\\" + tt + "\\")
+        buttons[2][2].config(text="\\" + tt + "\\")
         return True
 
     #check if previous move was on the secondary diagonal and caused a win
     if x + y == 2 and buttons[0][2]['text'] == buttons[1][1]['text'] == buttons[2][0]['text'] != " ":
-        buttons[x][y].config(text="/" + tt + "/")
-        buttons[x][y].config(text="/" + tt + "/")
-        buttons[x][y].config(text="/" + tt + "/")
+        buttons[0][2].config(text="/" + tt + "/")
+        buttons[1][1].config(text="/" + tt + "/")
+        buttons[2][0].config(text="/" + tt + "/")
         return True
 
     return False
