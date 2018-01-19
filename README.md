@@ -11,3 +11,4 @@ Defaults: Player goes first with cross (X) while the computer plays with noughts
 ### To-Do:  
 * Providing the choice of turn to the player.  
 * Removing redundant code.
+* Providing options for other Algorithms.
