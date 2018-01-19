@@ -1,5 +1,5 @@
 {
-  "contributors": ["apb7"],
+  "contributors": ["apb7", "bugtester7"],
   "message": "Hi {{usersWithoutCLA}}, thanks for your PR! Would you mind following the instructions https://github.com/apb7/Tic-Tac-Toe/README.md first to get started?",
   "label": "cla-signed",
   "recheckComment": "Hey! You're good to go!"
