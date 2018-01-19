@@ -10,5 +10,4 @@ Defaults: Player goes first with cross (X) while the computer plays with noughts
 * Run `python tic-tac-toe.py` to play the game.  
 ### To-Do:  
 * Providing the choice of turn to the player.  
-* Removing redundant code.
 * Providing options for other Algorithms.
